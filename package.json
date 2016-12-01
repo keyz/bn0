@@ -1,6 +1,6 @@
 {
   "name": "babel-node-bin-stage-0",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "bn0: an alternative babel-node binary with pre-loaded nightly presets",
   "bin": {
     "bn0": "./bin/bn0.js"
