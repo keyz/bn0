@@ -1,0 +1,29 @@
+{
+  "name": "babel-node-bin-stage-0",
+  "version": "0.1.0",
+  "description": "bn0: pre-loaded babel-node binary with nightly presets",
+  "scripts": {
+    "build": "babel src --out-dir lib",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keyanzhang/babel-node-bin-stage-0.git"
+  },
+  "keywords": [],
+  "author": "Keyan Zhang <root@keyanzhang.com> (http://keya.nz)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/keyanzhang/babel-node-bin-stage-0/issues"
+  },
+  "homepage": "https://github.com/keyanzhang/babel-node-bin-stage-0#readme",
+  "dependencies": {
+    "babel-core": "^6.18.2",
+    "babel-preset-latest": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0"
+  }
+}
