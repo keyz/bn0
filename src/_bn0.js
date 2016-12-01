@@ -11,6 +11,17 @@ import _ from "lodash";
 import "babel-polyfill";
 import register from "babel-register";
 
+import presetLatest from 'babel-preset-latest';
+import presetReact from 'babel-preset-react';
+import presetStage0 from 'babel-preset-stage-0';
+
+// ** LOOK HERE ARE THE PRE-LOADED PRESETS **
+const nightlyPresets = [
+  presetLatest,
+  presetReact,
+  presetStage0,
+];
+
 let program = new commander.Command("bn0");
 
 program.option("-e, --eval [script]", "Evaluate script");
@@ -33,7 +44,7 @@ register({
   ignore:     program.ignore,
   only:       program.only,
   plugins:    program.plugins,
-  presets:    program.presets,
+  presets:    nightlyPresets,
 });
 
 //
@@ -68,7 +79,7 @@ let _eval = function (code, filename) {
 
   code = babel.transform(code, {
     filename: filename,
-    presets: program.presets,
+    presets: nightlyPresets,
     plugins: (program.plugins || []).concat([replPlugin])
   }).code;
 

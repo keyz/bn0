@@ -1,7 +1,10 @@
 {
   "name": "babel-node-bin-stage-0",
   "version": "0.1.0",
-  "description": "bn0: pre-loaded babel-node binary with nightly presets",
+  "description": "bn0: alternative babel-node binary with pre-loaded nightly presets",
+  "bin": {
+    "bn0": "./bin/bn0.js"
+  },
   "scripts": {
     "build": "babel src --out-dir lib",
     "prepublish": "npm run build"
@@ -19,9 +22,22 @@
   "homepage": "https://github.com/keyanzhang/babel-node-bin-stage-0#readme",
   "dependencies": {
     "babel-core": "^6.18.2",
+    "babel-polyfill": "^6.16.0",
     "babel-preset-latest": "^6.16.0",
     "babel-preset-react": "^6.16.0",
-    "babel-preset-stage-0": "^6.16.0"
+    "babel-preset-stage-0": "^6.16.0",
+    "babel-register": "^6.18.0",
+    "babel-runtime": "^6.18.0",
+    "commander": "^2.9.0",
+    "convert-source-map": "^1.3.0",
+    "fs-readdir-recursive": "^1.0.0",
+    "glob": "^7.1.1",
+    "lodash": "^4.17.2",
+    "output-file-sync": "^1.1.2",
+    "path-is-absolute": "^1.0.1",
+    "slash": "^1.0.0",
+    "source-map": "^0.5.6",
+    "v8flags": "^2.0.11"
   },
   "devDependencies": {
     "babel-cli": "^6.18.0"
