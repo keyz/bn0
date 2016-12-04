@@ -1,4 +1,4 @@
-# babel-node-bin-stage-0 ![npm](https://img.shields.io/npm/v/babel-node-bin-stage-0.svg)
+# babel-node-bin-stage-0 [![npm](https://img.shields.io/npm/v/babel-node-bin-stage-0.svg)](https://www.npmjs.com/package/babel-node-bin-stage-0)
 `bn0`: an alternative babel-node binary with pre-loaded nightly presets
 
 ```
