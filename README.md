@@ -1,8 +1,8 @@
-# babel-node-bin-stage-0 [![npm](https://img.shields.io/npm/v/babel-node-bin-stage-0.svg)](https://www.npmjs.com/package/babel-node-bin-stage-0)
+# bn0 [![npm](https://img.shields.io/npm/v/bn0.svg)](https://www.npmjs.com/package/bn0)
 `bn0`: an alternative babel-node binary with pre-loaded nightly presets
 
 ```
-npm install -g babel-node-bin-stage-0
+npm install -g bn0
 ```
 
 This is a fork of [`babel-cli`](https://www.npmjs.com/package/babel-cli) that provides nothing but a `bn0` binary. `bn0` is a `babel-node` alternative with all nightly presets pre-loaded. It comes with:

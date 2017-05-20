@@ -1,5 +1,5 @@
 {
-  "name": "babel-node-bin-stage-0",
+  "name": "bn0",
   "version": "0.1.1",
   "description": "bn0: an alternative babel-node binary with pre-loaded nightly presets",
   "bin": {
@@ -12,15 +12,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/keyanzhang/babel-node-bin-stage-0.git"
+    "url": "git+https://github.com/keyanzhang/bn0.git"
   },
   "keywords": [],
   "author": "Keyan Zhang <root@keyanzhang.com> (http://keya.nz)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/keyanzhang/babel-node-bin-stage-0/issues"
+    "url": "https://github.com/keyanzhang/bn0/issues"
   },
-  "homepage": "https://github.com/keyanzhang/babel-node-bin-stage-0#readme",
+  "homepage": "https://github.com/keyanzhang/bn0#readme",
   "dependencies": {
     "babel-core": "^6.18.2",
     "babel-polyfill": "^6.16.0",
