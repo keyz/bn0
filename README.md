@@ -1,5 +1,5 @@
 # bn0 [![npm](https://img.shields.io/npm/v/bn0.svg)](https://www.npmjs.com/package/bn0)
-`bn0`: an alternative babel-node binary with pre-loaded nightly presets
+`bn0`: `bn0`: babel-node with pre-loaded nightly (stage-0) presets
 
 ```
 npm install -g bn0
