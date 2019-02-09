@@ -1,6 +1,6 @@
 {
   "name": "bn0",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "bn0: an alternative babel-node binary with pre-loaded nightly presets",
   "bin": {
     "bn0": "./bin.js"
