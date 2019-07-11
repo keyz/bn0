@@ -1,4 +1,5 @@
-/* @flow */
+import main from './jsx.tsx';
+// ^ this error should be ignored by `ts0`
 
 class Test {
   name: string = 'Good';
@@ -19,3 +20,5 @@ class Test {
 
 const test = new Test();
 test.sayName();
+
+main();

@@ -1,13 +1,15 @@
 {
   "name": "bn0",
-  "version": "2.0.0",
+  "version": "3.0.0-alpha1",
   "description": "bn0: an alternative babel-node binary with pre-loaded nightly presets",
   "bin": {
     "bn0": "./bn0.js",
-    "b0mon": "./b0mon.js"
+    "b0mon": "./b0mon.js",
+    "ts0": "./ts0.js",
+    "t0mon": "./t0mon.js"
   },
   "scripts": {
-    "test": "./bn0.js test.js"
+    "test": "./bn0.js tests/flow.js && ./ts0.js tests/ts.ts && ./ts0.js tests/vanilla.js && ./ts0.js tests/crazy.ts"
   },
   "repository": {
     "type": "git",
@@ -31,8 +33,11 @@
     "@babel/preset-env": "^7.3.1",
     "@babel/preset-flow": "^7.0.0",
     "@babel/preset-react": "^7.0.0",
+    "@types/node": "^12.6.2",
     "cross-spawn": "^6.0.5",
-    "nodemon": "^1.18.10"
+    "nodemon": "^1.18.10",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.3"
   },
   "devDependencies": {}
 }
